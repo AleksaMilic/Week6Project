@@ -1,5 +1,5 @@
 const button = document.querySelector("#btn");
-const toggle = document.querySelector(".toggle");
+const action = document.querySelector(".action");
 
 const bodyClass = document.body.classList;
 
@@ -17,7 +17,7 @@ button.addEventListener("click", (e) => {
   }
 
   bodyClass.add("theme" + theme);
-  toggle.style.marginLeft = margLeft + "px";
+  action.style.marginLeft = margLeft + "px";
 });
 
 let output = document.querySelector(".output");

@@ -177,7 +177,7 @@ main {
   width: 227px;
   height: 64px;
 }
-.button1 {
+.key1 {
   color: var(--text2);
   background-color: var(--button1);
   border-bottom: 3px solid var(--buttonShadow1);
@@ -225,5 +225,3 @@ main {
     width: 327px;
   }
 }
-
-/* for desktops */
